@@ -8,7 +8,7 @@ A CLI utility is in progress for handling configs better. Currently, the config 
 
 Add this script tag to the head of index.html before React is invoked.
 
-```sh
+```html
 <script>
     window.__STYLED_WIND_CUSTOM_CONFIG__ = {
         theme: {
@@ -24,7 +24,7 @@ Add this script tag to the head of index.html before React is invoked.
 
 Now the extended color cyan will be available in all possible css classes as below
 
-```sh
+```js
 import styled from 'styled-wind'
 
 const CustomColor = styled.div`

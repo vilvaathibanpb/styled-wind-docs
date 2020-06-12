@@ -58,7 +58,7 @@ Basic knowledge of [styled-components](https://styled-components.com/) and [tail
 
 - React Native support is not added yet
 - Tailwind classnames aren't supported yet inside keyframes and expressions. However you may still use regular CSS for expressions & keyframes
-    ```sh
+    ```js
     // Not allowed. Will be implemented in future
         const StyledComponent = styled.div`
             @keyframes mymove{
@@ -82,7 +82,7 @@ Basic knowledge of [styled-components](https://styled-components.com/) and [tail
 
 ## Examples
 <!-- Add code sandbox like: TODO -->
-Check out the [CodeSandBox](https://github.com/docsifyjs/awesome-docsify#showcase) to see styled-wind in use.
+Check out the [CodeSandBox](https://codesandbox.io/s/styled-wind-demo-hxmsi?file=/src/App.js) to see styled-wind in use.
 
 ## Community
 

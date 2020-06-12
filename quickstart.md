@@ -2,32 +2,31 @@
 
 Install the dependency. Please note, `styled-component` is a peer dependency
 
-```
-yarn add styled-wind
+```sh
+yarn add styled-wind@beta styled-components
 
 // or
 
-npm i styled-wind
+npm i styled-wind@beta styled-components
 ```
 
 ### Usage
 
 An usual styled component:
 
-```sh
+```js
 import styled from 'styled-component';
 
 const StyledContainer = styled.div`
     background: red;
     margin-top: 10px;
     border: 1px solid {props => props.isError ? 'red' : 'green' } 
-
 `
 ```
 
 A styled-wind component:
 
-```sh
+```js
 import styled from 'styled-wind';
 
 const StyledContainer = styled.div`
