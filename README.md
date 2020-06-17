@@ -24,7 +24,27 @@ const StyledContainer = styled.div`
     .pt-10; 
     border: 1px solid {props => props.isError ? 'red' : 'green' } 
 `
+
+
+// Alternate syntax
+const StyledContainer = styled.div`
+    background: red;
+    margin-top: 10px;
+    # sets text blue
+    swind: text-blue-600; 
+    # sets text green for large and xl devices
+    swind-lg: text-green-600; 
+    # sets bg yellow on hover
+    swind-hover: bg-yellow; 
+    # sets padding top value
+    swind: pt-10; 
+    border: 1px solid {props => props.isError ? 'red' : 'green' } 
+`
 ```
+
+## Why styled-wind is a good idea?
+
+Styled-wind helps you build responsive web apps very quickly without having a need to write a single line of css. With styled-wind, dynamic styling and handling redundant styles becomes easier and straight-forward. It will also start supporting React Native in near future.
 
 ## Motivation
 
@@ -46,7 +66,7 @@ See the [Quick start](quickstart.md) guide for more details.
 
 ## Prerequisite
 
-Basic knowledge of [styled-components](https://styled-components.com/) and [tailwindcss](https://tailwindcss.com/). The list of tailwind class names can be found [here](https://nerdcave.com/tailwind-cheat-sheet)
+Basic knowledge of [styled-components](https://styled-components.com/) and names of class in [tailwindcss](https://tailwindcss.com/). The list of tailwind class names can be found [here](https://nerdcave.com/tailwind-cheat-sheet).
 
 
 ## Features

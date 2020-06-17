@@ -42,6 +42,21 @@ const StyledContainer = styled.div`
     .pt-10; 
     border: 1px solid {props => props.isError ? 'red' : 'green' } 
 `
+
+// Alternate syntax
+const StyledContainer = styled.div`
+    background: red;
+    margin-top: 10px;
+    # sets text blue
+    swind: text-blue-600; 
+    # sets text green for large and xl devices
+    swind-lg: text-green-600; 
+    # sets bg yellow on hover
+    swind-hover: bg-yellow; 
+    # sets padding top value
+    swind: pt-10; 
+    border: 1px solid {props => props.isError ? 'red' : 'green' } 
+`
 ```
 
 As simple as that. You are good to go. 
