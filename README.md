@@ -6,10 +6,6 @@
 
 Styled-wind is a CSS-in-JS library, written on top of styled-components. It inherits everything from styled-components and also gives you the flexibility to use tailwind classnames along with styled-components.
 
-A complete introductory video:
-
-[Styled-wind Introduction](https://youtu.be/EaUGkSObZQg ':include')
-
 ## A sample Styled-wind component:
 
 ```js
