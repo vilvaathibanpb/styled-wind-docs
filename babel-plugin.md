@@ -6,7 +6,7 @@ This plugin is a highly recommended supplement to the base [styled-wind](https:/
 - Supports all features of [styled-wind](https://github.com/product-ride/styled-wind), but with no additional bundle size
 - It works independently and doesnt require installing `styled-wind`
 
-**Note:** For testing/playing around the tool, use the actual library. Use the `babel-pligin-styled-wind` only for production to avoid unnecssary configurations. If you are using `create-react-app`, you should `eject` before using it. 
+**Note:** For testing/playing around the tool, use the actual library. Use the `babel-plugin-styled-wind` only for production to avoid unnecssary configurations. If you are using `create-react-app`, you should `eject` before using it. 
 
 
 
@@ -30,7 +30,7 @@ Then add it to your babel configuration:
 }
 ```
 
-## Custom themeing
+## Custom theming
 
 > The configurations works very similar to tailwindcss with few exceptions. Details about configuring or extending the default theme object can be found [here](https://tailwindcss.com/docs/configuration)
 
